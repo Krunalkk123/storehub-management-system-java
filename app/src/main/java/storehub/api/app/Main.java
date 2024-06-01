@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplication.class, args);
+    	System.out.println("krunalkk");
+        SpringApplication.run(Main.class, args);
     }
 
 }
